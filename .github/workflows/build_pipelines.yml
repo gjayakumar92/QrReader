@@ -24,4 +24,4 @@ jobs:
       run: npm install -g surge
 
     - name: Deploy to Surge
-      run:  surge ./build https://react-qr-reader.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
+      run:  surge ./build https://qr-reader-reactapp.surge.sh/ --token ${{secrets.SURGE_TOKEN}}
